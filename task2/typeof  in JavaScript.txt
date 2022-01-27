@@ -1,0 +1,25 @@
+    
+	                                JavaScript typeof
+	=> 1 is defined as number type
+console.log(typeof(1))
+    => 1.1 is defined as float type and the number always has decimal value 
+console.log(typeof(1.1))
+    => '1.1' is String 
+    => A String is a collection of characters (or) sequence of characters
+    => which is always enclosed with a single ('') or double quotes (“”)
+console.log(typeof('1.1'))
+    => Boolean type
+    => true or false is boolean 
+console.log(typeof(true))
+    => object type
+    => The value null represents the intentional absence of any object value
+console.log(typeof(null))
+    => if the data is not assigned is called undefined
+console.log(typeof(undefined))
+    => object type 
+    => it returns "object" for objects, arrays, and null
+console.log(typeof([]))
+    => it returns "object" for objects, arrays, and null
+console.log(typeof({}))
+    => NaN is nothing but not a number 
+console.log(typeof(NaN))
