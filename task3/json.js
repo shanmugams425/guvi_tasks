@@ -1,0 +1,32 @@
+
+//For the given JSON iterate over all for loops (for, for in, for of, forEach)
+
+var student=[{"Name":"suriya",
+         "age":"23",
+         "email":"suriya@gmail.com",},
+         
+         {"Name":"sanjay",
+         "age":"21",
+         "email":"sanjay@gmail.com"}];
+
+
+//for loop   
+
+for(i=0;i<student.length;i++){
+   console.log(student[i]);          
+} ;
+console.log('-------------------------------');
+//for in loop
+
+for( const x in student){
+    console.log(student[x]);
+} ;       
+console.log("-------------------------------");
+//for of loop
+
+for(let a of student){
+    console.log(a);
+};
+console.log("--------------------------------");
+//for Each loop
+student.forEach(element => console.log(element));
