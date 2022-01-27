@@ -5,9 +5,8 @@ brwoser js
  3.	It is basically used on the client-side.
  4.	Javascript is capable enough to add HTML and play with the DOM.
  5. Javascript can run in any browser engine as like JS core in safari and Spidermonkey in Firefox.
- 
 
- NodeJS
+NodeJS
  1. NodeJS is a Javascript runtime environment.
  2. We can run Javascript outside the browser with the help of NodeJS.
  3.	It is mostly used on the server-side.
