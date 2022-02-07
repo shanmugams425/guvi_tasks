@@ -2,6 +2,14 @@
 <html>
 <head>
 <style>
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
@@ -11,24 +19,24 @@ table, th, td {
 <body>
 <table >
     <caption>Health Chart</caption>
-  <tr VALIGN = Middle Align = Center>
+  <tr A = Middle Align = Center>
     <td rowspan="2">State of Health</td>
     <td colspan="2">Fasting Value</td>
     <td>Add Eating</td>
   </tr>
-  <tr VALIGN = Middle Align = Center>
+  <tr A = Middle Align = Center>
     <td>Minimum</td>
     <td>Maximum</td>
     <td>2 hours after eating</td>
   </tr>
-  <tr VALIGN = Middle Align = Center>
+  <tr A = Middle Align = Center>
     <td>Healthy</td>
     <td>70</td>
     <td>100</td>
     <td>Less than 140</td>
     
   </tr>
-    <tr VALIGN = Middle Align = Center>
+    <tr A = Middle Align = Center>
     <td>Pre-Diabetes</td>
     <td>101</td>
     <td>126</td>
@@ -36,7 +44,7 @@ table, th, td {
     
   </tr>
    
-    <tr VALIGN = Middle Align = Center>
+    <tr A = Middle Align = Center>
     <td>Diabetes</td>
     <td>More than 126</td>
     <td>N/A</td>
